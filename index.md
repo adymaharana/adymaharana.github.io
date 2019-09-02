@@ -1,17 +1,14 @@
-I am a first year CS PhD student in the [UNC NLP lab](https://nlp.cs.unc.edu/) at the University of North Carolina at Chapel Hill, advised by [Prof. Mohit Bansal](http://www.cs.unc.edu/~mbansal/). I am generously supported by the institute graduate fellowship and a prestigious Munroe and Rebecca Cobey fellowship. Previously, I spent two wonderful years at [IBM Research - India](https://www.research.ibm.com/labs/india/) building industry-scale Intelligent Tutoring Systems. Precisely, I developed novel machine learning models for Automatic Short Answer Grading (arXiv 2019, CIKM 2018, AIED 2018), content understanding (IJCAI 2019) and other real-world Natural Language Understanding problems in the Education domain.
+I am a first year CS PhD student in the [UNC NLP lab](https://nlp.cs.unc.edu/) at the University of North Carolina at Chapel Hill, advised by [Prof. Mohit Bansal](http://www.cs.unc.edu/~mbansal/). Previously, I spent 1.5 years as Data Scientist at [Sciome LLC] (https://www.sciome.com/, a budding health-informatics startup based out of Durham. I built Information Extraction pipelines for parsing scientific articles and converting the full-text into meaningful, structured data. I also built better models for gene expression extrapolation and toxicological assay image analysis.
 
-Before joining IBM Research, I was an M.Tech. student and a Teaching Assistant in the CS department at IIT, Delhi. I was affiliated with the [Data Analytics and Intelligence Research Group](https://www.cse.iitd.ac.in/dair/) and was advised by [Prof. Mausam](http://www.cse.iitd.ac.in/~mausam/). In my master's thesis, I developed the widely used Open Information Extraction system ([Open IE 5.0](https://github.com/dair-iitd/OpenIE-standalone)) (ACL 2017, COLING 2018).
+I graduated with a Masters in Biomedical & Health Informatics from [University of Washington School of Medicine] (http://bime.uw.edu/) and worked towards a thesis on conversion of clinical discharge summaries to patient timeline with [Prof. Meliha Yetisgen] (https://faculty.washington.edu/melihay/). At the same time, I was also a Research Assistant advised by Prof. Elaine O. Nsoesie at the Institute of Health Metrics & Evaluation.
 
-I completed my B.E. in CS from Jadavpur University, India in 2014 and also spent a year working as a Software Developer in the Acrobat Reader team of Adobe Systems, India. I love language and develop computational models for understanding language, primarily in the areas of Information Extraction, Natural Language Inference and Question Answering. My broad research interests are in Natural Language Processing, Computational Linguistics, Machine Learning and Deep Learning.
+I completed my undergraduate (Integrated B.Tech & M.Tech) in Electronics & Electrical Communication Engineering, with specialization in Visual Info. Processing & Embedded Systems from Indian Institute of Technology, Kharagpur, India in 2015. I has research stints as an intern at the National Remote Sensing Center and German Cancer Research Center. I love language and develop computational models for understanding language, primarily in the areas of Information Extraction, Natural Language Inference and Question Answering. 
+My broad research interests are in Natural Language Processing, Computational Linguistics, Machine Learning and Deep Learning.
 
 ## Recent News
 
-* **August 2019**: Short research paper accepted at EMNLP-IJCNLP 2019, Hong Kong, China.
 * **August 2019** : Joined the [UNC NLP lab](https://nlp.cs.unc.edu/) this fall for PhD in CS.
-* **May 2019**: Full research paper accepted at IJCAI 2019, Macau, China.
-* **February 2019**: PhD admits in the NLP/ML groups at Johns Hopkins, Purdue and University of North Carolina, Chapel Hill.  
-* **February 2019**: New paper on "Joint Multi-Domain Learning for Automatic Short Answer Grading" is up on arxiv.  
-* **December 2018**: Lab-wide Research appreciation award at IBM Research for work on Intelligent Tutors.
+* **February 2019**: PhD admits in the Ultrasound Imaging group at Johns Hopkins and NLP/ML group of University of North Carolina, Chapel Hill.  
 * **August 2018**: Full research paper accepted at CIKM 2018, Turin, Italy.
 
 ## Publications [[Google Scholar](https://scholar.google.co.in/citations?user=sY5SyBgAAAAJ&hl=en)] [[dblp](https://dblp.uni-trier.de/pers/hd/s/Saha:Swarnadeep)]
