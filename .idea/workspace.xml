@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4419774c-b7c3-4de4-ab7d-752e6ee4d204" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cococon/hf_icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cococon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cococon/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cococon/static/interpolation/stacked/._Icon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cococon/static/videos/._Icon" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +28,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +45,14 @@
       <workItem from="1679412315705" duration="4399000" />
       <workItem from="1680029131643" duration="2050000" />
       <workItem from="1680046669281" duration="559000" />
-      <workItem from="1680048491806" duration="6717000" />
+      <workItem from="1680048491806" duration="6741000" />
+      <workItem from="1680803835017" duration="30000" />
+      <workItem from="1680811222293" duration="1081000" />
+      <workItem from="1681238292996" duration="731000" />
+      <workItem from="1681926309978" duration="9000" />
+      <workItem from="1691549314319" duration="18000" />
+      <workItem from="1693369702145" duration="8000" />
+      <workItem from="1694603358950" duration="19000" />
     </task>
     <servers />
   </component>
@@ -65,5 +69,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
