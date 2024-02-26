@@ -165,11 +165,10 @@
           <p>
             Existing works on long-term open-domain dialogues focus on evaluating model responses
             within contexts spanning no more than five
-            chat sessions. Despite advancements in long-context large language models (LLMs) and
-            retrieval augmented generation (RAG) techniques, their efficacy in very long-term dialogues remains unexplored.
+            chat sessions.
           </p>
           <p>
-            To address this research gap, we introduce a machine-human
+            We introduce a machine-human
             pipeline to generate high-quality, very long-term dialogues by leveraging LLM-based agent
             architectures and grounding their dialogues on personas and temporal event graphs. Moreover,
             we equip each agent with the capability of sharing and reacting to images. 
@@ -181,8 +180,7 @@
             Based on LOCOMO, we present a comprehensive evaluation benchmark to measure long-term memory in models, encompassing
             question answering, event summarization, and multi-modal dialogue generation tasks. Our experimental results indicate that LLMs exhibit
             challenges in understanding lengthy conversations and comprehending long-range temporal
-            and causal dynamics within dialogues. Employing strategies like long-context LLMs or RAG
-            can offer improvements but these models still substantially lag behind human performance.
+            and causal dynamics within dialogues.
           </p>
         </div>
       </div>
@@ -192,17 +190,23 @@
     <!-- Motivation. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">What is Cross-Task Inconsistency?</h2>
+        <h2 class="title is-3">How to generate <i>very</i> long-term conversations?</h2>
         <div class="intro-figure">
-          <img src="./static/images/intro.svg" alt="Intro" style="float: left; margin: 5px;"/>
+          <img src="./static/images/intro_figure_conv_only_v2.svg" alt="Intro" style="float: right; margin: 5px;"/>
 <!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
 <!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
         </div>
         <div class="content has-text-justified">
           <p>
-Step-by-step demonstration of the automated pipeline for generating contrast sets for <span class="dnerf">CoCoCON</span>.
-            Contrast sets generated from this pipeline for the validation split of COCO are subjected to manual
-            filtering and then used to prepare the \dataset{} benchmark.
+            An overview of conversations in LoCoMo is shown to the right. We create two <i>virtual agents</i>, each initialized with a
+            LLM. To start, unique <i>persona statements</i> are assigned to each agent, ensuring the integration of distinct personalities
+            into their dialogues. To mirror real-life experiences, we create a <i>temporal event graph</i> for
+            each agent, which illustrates a realistic sequence of life events. 
+            The LLM <i>agent architecture</i> is utilized for each agent,
+            enabling them to effectively memorize and reflect
+            conversation history into ongoing dialogues. Further, each agent Li can share coherent images,
+            thereby enhancing the <i>multi-modal dialogue</i> aspect. Finally, human annotators are tasked with <i>manually
+              filtering and refining</i> the generated data.
           </p>
         </div>
       </div>
