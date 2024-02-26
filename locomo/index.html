@@ -160,7 +160,7 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Motivation</h2>
         <div class="content has-text-justified">
           <p>
             Existing works on long-term open-domain dialogues focus on evaluating model responses
@@ -178,9 +178,10 @@
           </p>
           <p>
             Based on LOCOMO, we present a comprehensive evaluation benchmark to measure long-term memory in models, encompassing
-            question answering, event summarization, and multi-modal dialogue generation tasks. Our experimental results indicate that LLMs exhibit
-            challenges in understanding lengthy conversations and comprehending long-range temporal
-            and causal dynamics within dialogues.
+            question answering, event summarization, and multi-modal dialogue generation tasks. 
+            <!-- Our experimental results indicate that LLMs exhibit -->
+            <!-- challenges in understanding lengthy conversations and comprehending long-range temporal -->
+            <!-- and causal dynamics within dialogues. -->
           </p>
         </div>
       </div>
@@ -192,21 +193,21 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">How to generate <i>very</i> long-term conversations?</h2>
         <div class="intro-figure">
-          <img src="./static/images/intro_figure_conv_only_v2.svg" alt="Intro" style="float: right; margin: 5px;"/>
+          <img src="./static/images/intro_figure_conv_only_v2.svg" alt="Intro" style="float: right; margin: 8px;"/>
 <!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
 <!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
         </div>
         <div class="content has-text-justified">
           <p>
-            An overview of conversations in LoCoMo is shown to the right. We create two <i>virtual agents</i>, each initialized with a
-            LLM. To start, unique <i>persona statements</i> are assigned to each agent, ensuring the integration of distinct personalities
-            into their dialogues. To mirror real-life experiences, we create a <i>temporal event graph</i> for
+            An overview of conversations in LoCoMo is shown to the right. We create two <b>virtual agents</b>, each initialized with a
+            LLM. To start, unique <b>persona statements</b> are assigned to each agent, ensuring the integration of distinct personalities
+            into their dialogues. To mirror real-life experiences, we create a <b>temporal event graph</b> for
             each agent, which illustrates a realistic sequence of life events. 
-            The LLM <i>agent architecture</i> is utilized for each agent,
+            The LLM <b>agent architecture</b> is utilized for each agent,
             enabling them to effectively memorize and reflect
             conversation history into ongoing dialogues. Further, each agent Li can share coherent images,
-            thereby enhancing the <i>multi-modal dialogue</i> aspect. Finally, human annotators are tasked with <i>manually
-              filtering and refining</i> the generated data.
+            thereby enhancing the <b>multi-modal dialogue</b> aspect. Finally, human annotators are tasked with <b>manually
+              filtering and refining</b> the generated data.
           </p>
         </div>
       </div>
@@ -218,7 +219,6 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-
 
     <!-- Animation. -->
     <div class="columns is-centered">
@@ -323,10 +323,10 @@ models for varying difficulty (k) and all tasks in COCOCON, (b) % consistency (k
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{maharana2024exposing,
-  author    = {Maharana, Adyasha and Kamath, Amita and Clark, Christopher and Bansal, Mohit and Kembhavi, Aniruddha},
-  title     = {Exposing and Addressing Cross-Task Inconsistency in Unified Vision-Language Models.},
-  journal   = {TMLR},
+    <pre><code>@article{maharana2024lococmo,
+  author    = {Maharana, Adyasha and Lee, Dong-Ho and Tulyakov, Sergey and Bansal, Mohit and Barbieri, Francesco and Fang, Yuwei},
+  title     = {Evaluating Very Long-Term Conversational Memory of LLM Agents.},
+  journal   = {arxiv},
   year      = {2024},
 }</code></pre>
   </div>
