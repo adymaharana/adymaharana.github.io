@@ -258,7 +258,6 @@
 </section>
 
 
-
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -291,87 +290,8 @@
 </section>
 
 
-
 <section class="section">
   <div class="container is-max-desktop">
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Evaluation Framework</h2>
-        <!-- <div class="dataset-figure">
-          <img src="./static/images/dataset_construction.png" alt="construction" /> -->
-<!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
-<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-        <!-- </div> -->
-        <!-- Interpolating. -->
-        <div class="content has-text-justified">
-          <p>
-Step-by-step demonstration of the automated pipeline for generating contrast sets for <span class="dnerf">CoCoCON</span>.
-            Contrast sets generated from this pipeline for the validation split of COCO are subjected to manual
-            filtering and then used to prepare the \dataset{} benchmark.
-          </p>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <h2 class="title is-4">Examples from <span class="dnerf">CoCoCON</span> benchmark</h2>
-                <div class="dataset-figure">
-          <img src="./static/images/cococon.svg" alt="cococon" />
-<!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
-<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-        </div>
-        <div class="content has-text-justified">
-          <p>
-            For each example, we show the relevant image (left), the ground truth caption,
-VQA question, or image generation prompt for the image with the perturbed concept in green (middle), the set of perturbations used to
-generate alternative answers and predictions from Unified-IO XL for VQA (V), image generation (G) and localization (L) (right columns). &#9989; and &#10060; indicate scenarios where the model predictions for captioning and the corresponding task for that particular contrast set are
-consistent and inconsistent respectively. ‘-’ denotes a lack of localization annotations for the given sample.
-          </p>
-        </div>
-        <!--/ Re-rendering. -->
-
-        <!-- Re-rendering. -->
-        <h2 class="title is-4">How to evaluate consistency between heterogeneous output modalities?</h2>
-                <div class="dataset-figure">
-          <img src="./static/images/fig1.svg" alt="evaluation" />
-<!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
-<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-        </div>
-        <div class="content has-text-justified">
-          <p>
-            We use the unified models' likelihoods for each gold and contrast labels of each task to rank the outputs of anchor task (image captioning) and a target task (VQA, localization, text-to-image generation). If the gold outputs or contrast ouputs for both tasks are ranked higher, model is consistenct, otherwise it is inconsistent. With this method, we avoid having to compare hetergenous modalities e.g., a bounding box vs. a caption.
-          </p>
-        </div>
-        <!--/ Re-rendering. -->
-
-      </div>
-    </div>
-    <!--/ Animation. -->
-
-
-    <!-- Experiments. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Experiments</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            We evaluate pretrained models on the COCOCON benchmark. (a) % Consistency of Unified-IO XL and OFA-HUGE
-models for varying difficulty (k) and all tasks in COCOCON, (b) % consistency (k=1) values for different sizes of Unified-IO models and
-(c) comparison of % accuracy with % consistency (k=1) values for all sizes of OFA models and our OFACon model.
-          </p>
-                <div class="experiment-figure">
-          <img src="./static/images/main_table_iccv.svg" alt="tables" />
-<!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
-<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-        </div>
-        </div>
-      </div>
-    </div>
-    <!--/ Experiments. -->
-
       <!-- Findings. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
@@ -379,8 +299,22 @@ models for varying difficulty (k) and all tasks in COCOCON, (b) % consistency (k
 
         <div class="content has-text-justified">
             <ul>
-                <li><b>Models are more inconsistent across tasks of diverse modalities.</b> Unified-IO and OFA demostrate higher inconsistency in image captioning vs. text-to-image generation than in image captioning vs. visual question answering (VQA).</li>
-                <li><b>Models are inconsistent at hard as well as easy contrast sets.</b> CoCoCON contains contrast sets of varying difficulties. While models are more consistent at easier contrast sets, the consistency is far from 100%, especially across tasks of varying modalities.</li>
+                <li><b>Question-answering task.</b></li>
+                <ul>
+                  <li>LLMs with limited context length face challenges in understanding extremely long conversations due to truncated context windows.</li>
+                  <li>Long-context LLMs can comprehend longer narratives, yet they are prone to generating hallucinations.</li>
+                  <li> RAG is effective when conversations are stored as observations.</li>
+                  <li>Time reasoning and open-domain knowledge questions are the most challenging scenarios.</li>
+                </ul>
+
+                <li><b>Event gaph summarization task.</li>
+                <ul>
+                  <li>The use of incremental summarization with gpt-3.5-turbo leads to the highest performance in both recall and F1 score.</li>
+                  <li>Long-context LLMs can comprehend longer narratives, yet they are prone to generating hallucinations.</li>
+                  <li> RAG is effective when conversations are stored as observations.</li>
+                  <li>Time reasoning and open-domain knowledge questions are the most challenging scenarios.</li>
+                </ul>
+
                 <li><b>Larger multi-task models are more accurate as well as consistent.</b> Larger versions of Unified-IO and OFA models demonstrate higher accuracy as well as consistency on CoCoCON.</li>
                 <li><b>Models are more accurate than consistent.</b> This suggests that when models make mistakes for one task they rarely make the same kind of mistakes on the other tasks, which is what would allow a model to achieve high consistency independently of accuracy</li>
                 <li><b>Models capable of performing more tasks are more inconsistent.</b>Unified-IO models exhibit more inconsistency than OFA models that are trained to perform only a subset of the tasks comprising Unified-IO's capabilities.</li>
