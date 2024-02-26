@@ -292,38 +292,45 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-      <!-- Findings. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
         <h2 class="title is-3">Findings</h2>
-
         <div class="content has-text-justified">
+          <p>
+            We present extensive experimental results on the LoCoMo benchmark using instruction-based LLMs, long-context LLMs, and RAG techniques. Our findings include:
             <ul>
-                <li><b>Question-answering task.</b></li>
-                <ul>
-                  <li>LLMs with limited context length face challenges in understanding extremely long conversations due to truncated context windows.</li>
-                  <li>Long-context LLMs can comprehend longer narratives, yet they are prone to generating hallucinations.</li>
-                  <li> RAG is effective when conversations are stored as observations.</li>
-                  <li>Time reasoning and open-domain knowledge questions are the most challenging scenarios.</li>
-                </ul>
-
-                <li><b>Event gaph summarization task.</li>
-                <ul>
-                  <li>The use of incremental summarization with gpt-3.5-turbo leads to the highest performance in both recall and F1 score.</li>
-                  <li>Long-context LLMs can comprehend longer narratives, yet they are prone to generating hallucinations.</li>
-                  <li> RAG is effective when conversations are stored as observations.</li>
-                  <li>Time reasoning and open-domain knowledge questions are the most challenging scenarios.</li>
-                </ul>
-
-                <li><b>Larger multi-task models are more accurate as well as consistent.</b> Larger versions of Unified-IO and OFA models demonstrate higher accuracy as well as consistency on CoCoCON.</li>
-                <li><b>Models are more accurate than consistent.</b> This suggests that when models make mistakes for one task they rarely make the same kind of mistakes on the other tasks, which is what would allow a model to achieve high consistency independently of accuracy</li>
-                <li><b>Models capable of performing more tasks are more inconsistent.</b>Unified-IO models exhibit more inconsistency than OFA models that are trained to perform only a subset of the tasks comprising Unified-IO's capabilities.</li>
+              <li> <b>Long-context LLMs and RAG demonstrate effectiveness in QA tasks </b>, improving ‘memory’ capabilities of LLMs (with improvements ranging
+                from 22-66%), but still significantly lag behind human levels (by 56%), especially in temporal reasoning, (by 73%);
+                </li>
+              <li><b>Long-context LLMs demonstrate significant hallucinations</b>, leading to difficulty with adversarial questions in the QA task and in the event graph summarization task.</li>
+              <li><b>RAG offers a balanced compromise</b>, combining the accuracy of short-context LLMs with the
+                extensive comprehension of wide-context LLMs, and does particularly well when dialogues are transformed into a database of assertions (observations)
+                about each speaker’s life and persona.
+                </li>
             </ul>
+          </p>
         </div>
       </div>
     </div>
-    <!--/ Experiments. -->
+  </div>
+</section>
 
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+<!--        <iframe src="./static/images/main_figure_arxiv.pdf" style="width: 100%;height: 100%;border: none;"></iframe>-->
+      <img src="./static/images/minigpt5_results.svg" alt="Logo" style="display:block;border: none;"/>
+<!--      <video id="teaser" autoplay muted loop playsinline height="100%">-->
+<!--        <source src="./static/images/main_figure.svg"-->
+<!--                type="image/svg+xml">-->
+<!--      </video>-->
+      <h2 class="subtitle has-text-centered">
+        <b>Multimodal dialog generation performance of MiniGPT-5</b>. (A) an example of multimodal dialog
+predicted using MiniGPT5 with and without observation as retrieved context, (B) Variation of MM-Relevance score
+with length of dialog history, and (C) comparison of RAG-based MiniGPT-5 methods.
+      </h2>
+    </div>
   </div>
 </section>
 
