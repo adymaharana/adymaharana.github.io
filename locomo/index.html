@@ -65,7 +65,7 @@
               <a href="https://www.cs.unc.edu/~mbansal/">Mohit Bansal</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://fvancesco.github.io/">Francesco Barbieri</a><sup>3</sup>
+              <a href="https://fvancesco.github.io/">Francesco Barbieri</a><sup>3</sup>,
             </span>
             <span class="author-block">
               <a href="https://yuwfan.github.io/">Yuwei Fang</a><sup>3</sup>
@@ -73,7 +73,7 @@
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of North Carolina, Chapel Hill,</span>
+            <span class="author-block"><sup>1</sup>University of North Carolina, Chapel Hill</span>
             <span class="author-block"><sup>2</sup>University of Southern California</span>
             <span class="author-block"><sup>3</sup>Snap Research</span>
           </div>
@@ -174,7 +174,7 @@
             architectures and grounding their dialogues on personas and temporal event graphs. Moreover,
             we equip each agent with the capability of sharing and reacting to images. 
             The generated conversations are verified and edited by human annotators for long-range consistency and grounding to the event graphs. 
-            Using this pipeline, we collect LOCOMO, a dataset of very long-term conversations, each encompassing 300
+            Using this pipeline, we collect LoCoMo, a dataset of very long-term conversations, each encompassing 300
             turns and 9K tokens on avg., over up to 35 sessions.
           </p>
           <p>
@@ -182,7 +182,7 @@
             question answering, event summarization, and multi-modal dialogue generation tasks. Our experimental results indicate that LLMs exhibit
             challenges in understanding lengthy conversations and comprehending long-range temporal
             and causal dynamics within dialogues. Employing strategies like long-context LLMs or RAG
-            can offer improvements but these models still substantially lag behind human performance
+            can offer improvements but these models still substantially lag behind human performance.
           </p>
         </div>
       </div>
@@ -197,6 +197,13 @@
           <img src="./static/images/intro.svg" alt="Intro" style="float: left; margin: 5px;"/>
 <!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
 <!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+        </div>
+        <div class="content has-text-justified">
+          <p>
+Step-by-step demonstration of the automated pipeline for generating contrast sets for <span class="dnerf">CoCoCON</span>.
+            Contrast sets generated from this pipeline for the validation split of COCO are subjected to manual
+            filtering and then used to prepare the \dataset{} benchmark.
+          </p>
         </div>
       </div>
     </div>
