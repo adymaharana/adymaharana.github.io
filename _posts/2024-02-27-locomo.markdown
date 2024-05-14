@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Evaluating Very Long-Term Conversational Memory of LLM Agents"
+date:   2023-02-27 22:21:59 +00:00
+image: /images/locomo.png
+categories: research
+author: "Adyasha Maharana"
+authors: "<em>Adyasha Maharana</em>, Dong-Ho Lee, Sergey Tulyakov, Mohit Bansal, Francesco Barbieri, Yuwei Fang"
+venue: "arXiv"
+arxiv: https://arxiv.org/pdf/2402.17753.pdf
+website: https://snap-research.github.io/locomo/
+---
+We create a dataset for evaluating long-range memory of LLMs in the context of conversations and find that long-context models struggle to retreieve and utilize relevant context.

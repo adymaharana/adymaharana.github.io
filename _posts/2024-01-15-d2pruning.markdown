@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "D2 Pruning: Message Passing for Balancing Diversity & Difficulty in Data Pruning"
+date:   2024-01-15 22:21:59 +00:00
+image: /images/d2pruning.png
+categories: research
+author: "Adyasha Maharana"
+authors: "<em>Adyasha Maharana</em>, Prateek Yadav, Mohit Bansal"
+venue: "International Conference on Learning Representations (ICLR)"
+arxiv: https://arxiv.org/abs/2310.07931
+code: https://github.com/adymaharana/d2pruning
+---
+We show how to represent datasets as graphs and combine difficulty scores with diversity metrics to select the best-performing subset of a dataset in supervised, self-supervised and unsupervised pruning scenarios.

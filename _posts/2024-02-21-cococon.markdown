@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Exposing and Addressing Cross-Task Inconsistency in Unified Vision-Language Models"
+date:   2024-02-21 22:21:59 +00:00
+image: /images/cococon.png
+categories: research
+author: "Adyasha Maharana"
+authors: "<em>Adyasha Maharana</em>, Amita Kamath, Christopher Clark, Mohit Bansal, Aniruddha Kembhavi"
+venue: "Transactions of Machine Learning Research (TMLR)"
+arxiv: https://arxiv.org/pdf/2303.16133
+code: https://github.com/adymaharana/cococon
+data: https://huggingface.co/datasets/adymaharana/cococon
+website: https://adymaharana.github.io/cococon/
+---
+We curate a dataset for examining cross-task inconsistency in multi-task multimodal models and address this phenomena with a ranking-based loss objective.
