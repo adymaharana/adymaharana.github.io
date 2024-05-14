@@ -37,7 +37,7 @@
               <p>I recently obtained my PhD in Computer Science from UNC Chapel Hill where I was advised by <a href="http://www.cs.unc.edu/~mbansal/">Mohit Bansal</a> as a member of the <a href="https://murgelab.cs.unc.edu/">MURGe Lab</a>. My additional thesis committee members are <a href="https://anikem.github.io/">Aniruddha Kembhavi</a>, <a href="https://cs.stanford.edu/~diyiy/">Diyi Yang</a>, <a href="https://www.gedasbertasius.com/">Gedas Bertasius</a> and <a href="https://www.cs.unc.edu/~ronisen/">Roni Sengupta</a>.
               </p>
               <p>
-                I have interned at <a href="https://research.snap.com/">Snap Research</a>, <a href="https://prior.allenai.org/">AI2</a> and <a href="https://research.adobe.com/">Adobe Research</a>. Previously, I built information extraction pipelines for biomedical research articles at <a href="https://www.sciome.com/">Sciome</a>. I obtained my Masters in Biomedical & Health Information from the University of Washington, Seattle, where I worked on ML solutions for public health problems at <a href="http://www.healthdata.org/">IHME</a>. I completed my undergrad at IIT Kharagpur, India.
+                I have interned at <a href="https://research.snap.com/">Snap Research</a>, <a href="https://prior.allenai.org/">Allen Institute for AI (AI2)</a> and <a href="https://research.adobe.com/">Adobe Research</a>. Previously, I built information extraction pipelines for biomedical research articles at <a href="https://www.sciome.com/">Sciome</a>. I obtained my Masters from the University of Washington, Seattle, where I worked on ML solutions for public health problems at <a href="http://www.healthdata.org/">IHME</a>. I completed my undergrad at IIT Kharagpur, India.
               </p>
               <p style="text-align:center">
                 <a href="mailto:adyasha@cs.unc.edu">Email</a> &nbsp;/&nbsp;
@@ -65,11 +65,11 @@
             </td>
           </tr>
         </table>
+        <br>
+        <br>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          <center><h2 style="font-size:20px; ">Data Curation</h2></center>
-
+          <center><h2 style="font-size:19px; ">Data Curation</h2></center>
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
@@ -88,6 +88,9 @@
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
               {% endif %}
@@ -105,6 +108,9 @@
               {% endif %}
               {% if post.youtube %}
               <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
+              {% if post.demo %}
+              <a href="{{post.demo}}">demo</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
