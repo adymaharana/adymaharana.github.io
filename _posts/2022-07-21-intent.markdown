@@ -3,7 +3,7 @@ layout: post
 title:  "Multimodal intent discovery from livestream videos"
 date:   2022-07-21 22:21:59 +00:00
 image: /images/intent.png
-categories: research
+categories: multimodal
 author: "Adyasha Maharana"
 authors: "<em>Adyasha Maharana</em>, Quan Hung Tran, Franck Dernoncourt, Seunghyun Yoon, Trung Bui, Walter Chang, Mohit Bansal"
 venue: "Finding of NAACL"

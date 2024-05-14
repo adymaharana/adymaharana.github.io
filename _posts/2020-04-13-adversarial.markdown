@@ -3,7 +3,7 @@ layout: post
 title:  "Adversarial augmentation policy search for domain and cross-lingual generalization in reading comprehension"
 date:   2020-04-13 21:21:53 +00:00
 image: /images/adversarial.png
-categories: research
+categories: data
 author: "Adyasha Maharana"
 authors: "<em>Adyasha Maharana</em>, Mohit Bansal"
 venue: "Findings of EMNLP"

@@ -3,7 +3,7 @@ layout: post
 title:  "Exposing and Addressing Cross-Task Inconsistency in Unified Vision-Language Models"
 date:   2024-02-21 22:21:59 +00:00
 image: /images/cococon.png
-categories: research
+categories: data
 author: "Adyasha Maharana"
 authors: "<em>Adyasha Maharana</em>, Amita Kamath, Christopher Clark, Mohit Bansal, Aniruddha Kembhavi"
 venue: "Transactions of Machine Learning Research (TMLR)"

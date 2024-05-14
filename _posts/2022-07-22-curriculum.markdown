@@ -3,7 +3,7 @@ layout: post
 title:  "On curriculum learning for commonsense reasoning"
 date:   2022-07-22 22:21:59 +00:00
 image: /images/curriculum.png
-categories: research
+categories: data
 author: "Adyasha Maharana"
 authors: "<em>Adyasha Maharana</em>, Mohit Bansal"
 venue: "NAACL"

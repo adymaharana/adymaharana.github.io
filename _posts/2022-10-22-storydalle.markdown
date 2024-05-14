@@ -3,7 +3,7 @@ layout: post
 title:  "StoryDALL-E: Adapting Pretrained Text-to-Image Transformers for Story Continuation"
 date:   2022-10-22 22:21:59 +00:00
 image: /images/storydalle.png
-categories: research
+categories: multimodal
 author: "Adyasha Maharana"
 authors: "<em>Adyasha Maharana</em>, Darryl Hannan, Mohit Bansal"
 venue: "European Conference on Computer Vision (ECCV)"

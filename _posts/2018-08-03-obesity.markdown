@@ -3,10 +3,11 @@ layout: post
 title:  "Use of deep learning to examine the association of the built environment with prevalence of neighborhood adult obesity"
 date:   2018-08-03 21:21:53 +00:00
 image: /images/obesity.png
-categories: research
+categories: health
 author: "Adyasha Maharana"
 authors: "<em>Adyasha Maharana</em>, Elaine Okanyene Nsoesie"
 venue: "Journal of American Medical Association (JAMA) Network Open"
 paper: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2698635
 ---
-We demonstrate the use of image embeddings for drawing correlation between built environment and neighborhood adult obesity rates. This work was covered by various [new outlets](https://jamanetwork.altmetric.com/details/28477960/news) and accompanied by an [Editorial Comment](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2698627) in JAMA Network Open.
+We demonstrate the use of image embeddings for drawing correlation between built environment and neighborhood adult obesity rates. This work was covered in [news](https://jamanetwork.altmetric.com/details/28477960/news) and accompanied by an [Editorial Comment](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2698627).<br /><br />
+[Invited talk](https://adymaharana.github.io/pdfs/conversational_memory.pdf) at [ICLR SEDL Workshop 2021](https://sites.google.com/view/sedl-workshop/past-editions/2021)
