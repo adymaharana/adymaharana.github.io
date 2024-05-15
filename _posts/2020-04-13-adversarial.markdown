@@ -8,6 +8,7 @@ author: "Adyasha Maharana"
 authors: "<em>Adyasha Maharana</em>, Mohit Bansal"
 venue: "Findings of EMNLP"
 arxiv: https://arxiv.org/pdf/2004.06076
+code: https://github.com/adymaharana/BayesAugment
 ---
 
 We show that mixing training data from a diverse set of adversarial augmentation strategies can improve in-domain, cross-domain as well as cross-domain research comprehension.

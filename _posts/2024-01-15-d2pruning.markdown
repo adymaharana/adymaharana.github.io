@@ -6,7 +6,7 @@ image: /images/d2pruning.png
 categories: data
 author: "Adyasha Maharana"
 authors: "<em>Adyasha Maharana</em>, Prateek Yadav, Mohit Bansal"
-venue: "International Conference on Learning Representations (ICLR)"
+venue: "ICLR"
 arxiv: https://arxiv.org/abs/2310.07931
 code: https://github.com/adymaharana/d2pruning
 ---

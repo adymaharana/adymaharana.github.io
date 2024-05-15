@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Social media as a sentinel for disease surveillance: what does sociodemographic status have to do with it?"
+date:   2016-12-07 21:21:53 +00:00
+image: /images/twitter.png
+categories: health
+author: "Adyasha Maharana"
+authors: "Elaine O Nsoesie, Luisa Flor, Jared Hawkins, <em>Adyasha Maharana</em>, Tobi Skotnes, Fatima Marinho, John S Brownstein"
+venue: "PLoS currents"
+paper: PLoS currents
+---
+We apply machine-learning methods to explore spatial and temporal dengue event reporting trends on Twitter relative to confirmed cases, and quantified associations with sociodemographic factors across three Brazilian states (São Paulo, Rio de Janeiro, and Minas Gerais) at the municipality level.

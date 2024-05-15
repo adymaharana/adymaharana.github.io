@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Detecting reports of unsafe foods in consumer product reviews"
+date:   2019-10-03 21:21:53 +00:00
+image: /images/unsafe.jpeg
+categories: health
+author: "Adyasha Maharana"
+authors: "<em>Adyasha Maharana</em>, Kunlin Cai, Joseph Hellerstein, Yulin Hswen, Michael Munsell, Valentina Staneva, Miki Verma, Cynthia Vint, Derry Wijaya, Elaine O Nsoesie"
+venue: "Journal of American Medical Informatics Association (JAMIA) Open"
+paper: https://academic.oup.com/jamiaopen/article/2/3/330/5543660
+---
+We linked Amazon food product reviews to FDA food recalls from 2012 to 2014 and automate the detection of reports of unsafe food products.
